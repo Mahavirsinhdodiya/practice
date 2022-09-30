@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration form</title>
+</head>
+<body>
+	<form action="submit.html" method="post">
+		<table border="2" cellspacing="5px" cellpadding="3px">
+			<tr>
+				<th colspan="2">Registration form</th>
+			</tr>
+
+			<tr>
+				<td align="right">Name:</td>
+
+				<td>
+					<!--<input type="text" required pattern="[a-zA-Z]+" title="Maximum 20 Letter only-----">-->
+					<input type="text" name="nm" value="" required pattern="[a-zA-Z]{1,20}" title="Maximum 20 Letter only-----"></td>
+			</tr>
+
+			<tr>
+				<td align="right">Email:</td>
+				<td><input type="email" name="em" placeholder="Enter your email"></td>
+			</tr>
+
+			<tr>
+				<td align="right">Password:</td>
+				<td><input type="password" name="pwd"></td>
+			</tr>
+
+			<tr>
+				<td align="right">Mobile:</td>
+				<td><!--<input type="text" required pattern="[0-9]+" title="Enter only number----">-->
+					<input type="text" name="mn" required pattern="[0-9]{10}" title="Enter only ten number----"></td>
+			</tr>
+
+			<tr>
+				<td align="right">Gender:</td>
+				<td><input type="radio" name="md">Male
+				<input type="radio"name="md">Female
+				<input type="radio"name="md">Other
+					</td>
+			</tr>
+			<tr>
+			<td align="right">Hobbies:</td>
+				<td>
+				<input type="checkbox">Reading
+			<input type="checkbox">Music
+ 			<input type="checkbox">Cricket
+ 			<input type="checkbox">Coding
+ 				</td>
+			</tr>
+
+			<tr>
+				<td align="right">Birthdate:</td>
+				<td><input type="date"></td>
+			</tr>
+
+			<tr>
+				<td align="right">Upload Image:</td>
+				<td><input type="file" name="" multiple></td>
+			</tr>
+			<tr>
+				<td align="right">Quantity:</td>
+				<td><input type="number" min="1" max="10"></td>
+			</tr>
+
+			<tr>
+				<td align="right">Select Your Country:</td>
+				<td>
+					<select>
+						<option hidden>***select country***</option>
+						<option>INDIA</option>
+						<option>USA</option>
+						<option>UAE</option>
+						<option>AUS</option>
+						<option>UK</option>
+					</select>
+				</td>
+	
+			</tr>
+			<tr>
+				<td align="right">Address:</td>
+				<td><textarea></textarea></td>
+			</tr>
+
+			
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit">
+					<input type="reset">
+				</td>
+				
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>>
