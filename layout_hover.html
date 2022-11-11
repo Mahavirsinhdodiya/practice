@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box;margin: 0; padding: 0;}
+	
+		.main
+		{
+			display: flex;
+			padding: 30px;
+			background: lightcoral;
+		}
+		.m
+		{
+			height: 350px;
+			width: 600px;
+			background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
+			background-size: 120% 120%;
+			border: 30px solid rgba(255,255,255,0.34);
+			background-origin: border-box;
+			transition: 0.5s;
+			background-position: -40px 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+		}
+		
+		
+		.m:hover {
+		background-position: 0px 0px;
+
+		}
+		.n
+		{	
+			height: 200px;
+			width: 400px;
+			background: transparent;
+			padding: 0 0 0 200px;
+			transition: 0.5s;
+			border: 5px solid white;
+			opacity: 0;
+
+		}
+		
+		.m:hover .n
+		{
+			opacity: 1;
+			transform: translateX(20px);
+		}
+		p
+		{
+			font-family:cursive;
+			color: grey;
+			font-size:30px;
+			padding-top: 90px;
+		}
+		.m1
+		{
+			height: 350px;
+			width: 600px;
+			background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg);
+			background-size: 120% 120%;
+			border: 20px solid rgba(255,255,255,0.34);
+			background-origin: border-box;
+			transition: 0.5s;
+			background-position: -30px 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+		}
+		.m1:hover
+		{
+			background-position: -100px 0px;
+		}
+		.m1:hover .n
+		{
+			opacity: 1;
+			transform: translateX(-20px);
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="m">
+		
+		<div class="n">
+			<p>New arrivels</p>
+		</div>
+	</div>
+	<div class="m1">
+		
+		<div class="n">
+			<p>New arrivels</p>
+		</div>
+	</div>
+
+	</div>
+
+</body>
+</html>
