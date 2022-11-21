@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box; margin: 0; padding: 0;}
+		.menubar{
+			background: lightcoral;
+				}
+	
+		.menu
+		{
+		padding-left: 100px;
+		font-size: 25px;
+		list-style: none;
+		display: inline;
+		position: relative;
+		}
+		
+		.dropdown
+		{
+			list-style: none;
+			position: absolute;
+			top: 100%;
+			left:100%;
+			display: none;
+			text-decoration: none;
+			background: darkgrey;
+			
+		}
+		.dropdown a
+		{
+			text-decoration: none;
+			color: blue;
+			background: yellow;
+		
+		}
+		.menu:hover .dropdown
+		{
+			display: block;
+		}
+		.menu a
+		{
+			text-decoration: none;
+			color: blue;
+			background:lightcyan;	
+		}
+	</style>
+</head>
+<body>
+	<div class="menubar">
+		
+			<ul class="main-menu">
+				<li class="menu"><a href="">HOME</a></li>
+				<li class="menu"><a href="">SERVICE</a>
+							<ul class="dropdown">
+									<li><a href="">Service 1</a></li>
+									<li><a href="">Service 2</a></li>
+									<li><a href="">Service 3</a></li>
+									<li><a href="">Service 4</a></li>
+									<li><a href="">Service 5</a></li>
+							</ul>
+				</li>
+				<li class="menu"><a href="">MENU</a></li>
+				<li class="menu"><a href="">CONTACT US</a></li>
+				<li class="menu"><a href="">ABOUT US</a></li>
+			</ul>
+		</div>
+		
+	</body>
+</html>
