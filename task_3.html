@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body
+		{
+			display: flex;
+			justify-content: center;
+			min-height: 100vh;
+			background: black;
+		}
+		
+		.container
+		{
+			position: relative;
+			display: flex;
+			justify-content: center;
+			max-width: 1000px;
+			flex-wrap: wrap;
+			z-index: 1;
+		}
+		.container .card
+		{
+			height: 220px;
+			width: 400px;
+			background:rgba(255, 255, 255, 0.1);
+			margin: 200px auto;
+			border-radius: 20px;
+			position: relative;
+			box-shadow: 20px 20px 20px,rgba(0, 0, 0,0.1);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			backdrop-filter: blur(10px);
+		}
+		.container .shape1
+		{
+			height: 50px;
+			width: 50px;
+			background:coral;
+			position: absolute;
+			top:25%;
+			left: 50%;
+		
+			z-index: 0;
+			border-radius: 50%;
+		}
+		.container .shape2
+		{
+			height: 100px;
+			width: 100px;
+			background:yellow;
+			position: absolute;
+			top:55%;
+			left: 90%;
+			z-index: 0;
+			border-radius: 50%;
+		
+		}
+		.container .shape3
+		{
+			height: 150px;
+			width:150px;
+			background: blueviolet;
+			position: absolute;
+			top: 35%;
+			left: -20%;
+			z-index: 0;
+			border-radius: 50%;
+			
+		
+		}
+
+		.p1
+		{
+			color: whitesmoke;
+			position: absolute;
+			top: 20px;
+			left: 20px;
+		}
+		.fa-university
+		{
+			font-size: 30px;
+		}
+		.fa-cc-visa
+		{
+			position: absolute;
+			top:20px;
+			left:320px;
+			font-size: 30px;
+		}
+		.p2
+		{
+			height:20px;
+			width: 40px;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNqje6RwvUIm49By8_I0FjugdvvQC9bFDkbw&usqp=CAU);
+			background-size: 100% 100%;
+			position: absolute;
+			top: 70px;
+			left: 20px;
+		}
+		.p3
+		{
+			color: whitesmoke;
+			position: absolute;
+			top: 120px;
+			left: 20px;
+			font-weight: bolder;
+		}
+		.s
+		{
+			font-size: 10px;
+			font-weight: bolder;
+		}
+		.p4
+		{
+			color: whitesmoke;
+			position: absolute;
+			top: 120px;
+			left:260px;
+		}
+		.p5
+		{
+			color: whitesmoke;
+			position: absolute;
+			top: 180px;
+			left:20px;
+		}
+		.p6
+		{
+			color: whitesmoke;
+			position: absolute;
+			top: 180px;
+			left:260px;
+		}
+		
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+					<div class="shape1"></div>
+		<div class="shape2"></div>
+		<div class="shape3"></div>
+		<div class="card">
+
+			<div class="contain">
+				<p class="p1"><i class="fa fa-university" aria-hidden="true"></i> PASHA BANK </p>
+				<p><i class="fa fa-cc-visa" aria-hidden="true"></i></p>
+				<p class="p2"></p>
+				<p class="p3">MAHAVIR DODIYA<br>
+					<span class="s">USD</span></p>
+				<p class="p4">EXPIRE'S 12/21<br>
+				END </p>
+				<p class="p5">2345 5432 8468 0012</p>
+				<p class="p6"><i class="fa fa-wifi" aria-hidden="true"></i></p>
+			</div>	
+		</div>
+	</div>
+</body>
+</html> 	
